@@ -58,4 +58,3 @@ public class Main {
             fileLocalDataSource.saveList(cats);
         }
     }
-}
