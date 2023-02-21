@@ -1,6 +1,7 @@
 package com.iesam.huellas.app.api;
 
 import com.iesam.huellas.domain.models.Cat;
+import com.iesam.huellas.domain.models.Dog;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
@@ -10,4 +11,5 @@ public interface ApiService {
 
     @GET("cats.json")
     public Call<List<Cat>> getCats();
+    public Call<List<Dog>> getDogs();
 }
