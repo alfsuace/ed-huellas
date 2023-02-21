@@ -1,6 +1,6 @@
 package com.iesam.huellas.domain.models;
 
-public class Member {
+public class Member extends Person{
     private String bankAccount;
 
     public String getBankAccount() {
