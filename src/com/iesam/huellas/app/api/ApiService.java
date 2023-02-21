@@ -15,5 +15,5 @@ public interface ApiService {
     public Call<List<Cat>> getCats();
     public Call<List<Dog>> getDogs();
     public Call<List<Member>> getMembers();
-    public Call<List<AdoptionRecord>> getAdoptionRecord();
+    public Call<List<AdoptionRecord>> getAdoptionRecords();
     }
