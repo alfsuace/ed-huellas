@@ -1,7 +1,8 @@
 package com.iesam.huellas.domain.models;
 
-public class Cat {
+public class Cat extends Animal{
     private Integer id;
+    private boolean hasLeukemia;
 
 
     public Integer getId() {
@@ -10,5 +11,13 @@ public class Cat {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public boolean isHasLeukemia() {
+        return hasLeukemia;
+    }
+
+    public void setHasLeukemia(boolean hasLeukemia) {
+        this.hasLeukemia = hasLeukemia;
     }
 }
